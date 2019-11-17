@@ -236,7 +236,7 @@ p {
     position: absolute;
     height: 1px;
     background: #c69b6e;
-    top: 550px;
+    top: 650px;
     width: 170px;
     left: 680px;
     right: 500px;
@@ -254,6 +254,7 @@ p {
 .prices__item{
     margin-right: 30px;
     padding: 30px;
+    
     background-color: rgb(246, 246, 246);
     position: relative;
     transition: all 0.3s ease;
@@ -279,7 +280,9 @@ p {
     left: 80px;
     right: 100px;
 }
-
+.prices__rate{
+    text-align: center;
+}
 .prices__cost{
     text-align: center;
     font-size: 72px;
