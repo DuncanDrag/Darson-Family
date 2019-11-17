@@ -323,14 +323,13 @@ p {
     position: absolute;
     height: 1px;
     background: #c69b6e;
-    top: 600px;
+    top: 620px;
     width: 170px;
     left: 680px;
     right: 500px;
 }
 .testimonials__list{
-    display: flex;
-    text-align: center;
+    text-align: center;  
 }
 .testimonial__text{
     font-family: 'Open Sans', sans-serif;
@@ -345,6 +344,8 @@ p {
     border: 1px solid #cccccc;
     
 }
+.slick-slide, .slick-slide *{ outline: none !important; }
+
 /* testimonials */
 .clients__list{
     margin-top: 70px;
