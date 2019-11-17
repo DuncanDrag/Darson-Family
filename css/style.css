@@ -140,6 +140,8 @@ p {
 } 
 .caption__text {
     line-height: 19px;
+    font-family: 'Open Sans' ,serif;
+    font-weight: 600;
 }
 
 .about-us {
@@ -321,10 +323,27 @@ p {
     position: absolute;
     height: 1px;
     background: #c69b6e;
-    top: 340px;
+    top: 600px;
     width: 170px;
     left: 680px;
     right: 500px;
+}
+.testimonials__list{
+    display: flex;
+    text-align: center;
+}
+.testimonial__text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.testimonials__avatar{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    
 }
 /* testimonials */
 .clients__list{
@@ -340,7 +359,10 @@ p {
     margin-right: 0;
 }
 /*clients*/
-
+.cool-facts{
+    background: #2c2b2a;
+    color: #fff;
+}
 
 
 
