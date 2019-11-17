@@ -282,6 +282,7 @@ p {
 }
 .prices__rate{
     text-align: center;
+    color: #d1b18f;
 }
 .prices__cost{
     text-align: center;
@@ -316,7 +317,19 @@ p {
 /* prices */
 .testimonials{
     background: #ffffff;
+    position: relative;
 }
+.testimonials:before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    background: #c69b6e;
+    top: 340px;
+    width: 170px;
+    left: 680px;
+    right: 500px;
+}
+/* testimonials */
 .clients__list{
     margin-top: 70px;
     padding-bottom: 95px;
